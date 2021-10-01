@@ -1,0 +1,156 @@
+.{
+box-sizing :border-box;
+}
+html {
+margin:0;
+padding:0;
+}
+body {
+margin:0;
+padding:0;
+background:url("https://png.pngtree.com/thumb_back/fw800/back_our/20190623/ourmid/pngtree-economic-forum-international-conference-image_238922.jpg");
+background-size:cover;
+font-family:'Sacramento', cursive;
+color:red;
+font-size:20px;
+height:auto;
+flex-direction:column;
+justify-content:space-between; 
+}
+.logo{
+display:flex;
+font-size:26px;
+font-weight:500;
+margin:5px;
+padding:25px;
+justify-content:space-between; 
+color:#fffce14;
+}
+
+
+nav {
+padding-left:1rem 2rem;
+display:flex;
+justify-content:space-between; 
+align-items:center;
+font-family:'Gluten', cursive;
+margin:0 32px;
+}
+.main{
+float:right;
+padding:20px;
+}
+nav ul li{
+list-style:none;
+display:inline-block;
+text-transform:uppercase;
+font-weight:bold;
+letter-spacing:5px;
+}
+nav li a{
+padding-left:16px;
+margin:16px;
+text-decoration:none;
+color:white;
+transition:all 250ms ease-in;
+}
+nav li a:hover{
+background: hsl(14, 100%, 53%);
+color:black;
+}
+.title{
+color: #330000;
+text-align:center;
+width:50vw;
+margin:0 auto;
+}
+.title h1{
+font-family:'Nothing You Could Do', cursive;
+font-size:5rem;
+margin-bottom: 0;
+text-shadow:1px 1px 0 black;
+color:#ffce14;
+}
+.title p{
+letter-spacing: 4px;
+text-shadow:1px 1px 0 black;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.media-icons{
+position:absolute;
+display:flex;
+flex-direction:row;
+letter-spacing:15px;
+align-items:center;
+transition:0.5s ease;
+}
+.media-icons a{
+color:#FF7F50;
+font-size:26px;
+align-items:center;
+}
+
+.container-boxes{
+margin:0 auto;
+padding:0;
+display:flex;
+justify-content:space-between; 
+align-items:center;
+max-width:50vw;
+}
+.box{
+background-color:#ffce14;
+margin:0px;
+padding:10px;
+display:flex;
+justify-content:space-between; 
+align-items: center;
+max-width:350px;
+max-height:180px;
+min-height:180px;
+transition: all 250ms  ease-in;
+}
+.box:hover{
+background-color:rgba(255,255,255,0.7);
+transform:translateY(-20%);
+}
+.box a{
+text-decoration:none;
+color:black;
+}
+.icon{
+font-size :12px;
+padding: 16px;
+}
+.text h3{
+text-transform:uppercase;
+letter-spacing:3px;
+margin-bottom:0;
+color:black;
+}
+.text p {
+margin-top: 16px;
+line-height:20px;
+text-align:left;
+}
+.text{
+padding:8px;
+}
+.footer
+{
+	padding:50px;
+	font-family=poppings,sans-serif;
+	color:white;
+	text-align:center;
+	margin-top:20px;
+	font-weight:700;
+}
+
+
+}
